@@ -1,0 +1,10 @@
+.box{
+    /*border: solid 1px black !important;*/
+    width: auto !important;
+    height: 100% !important;
+    margin-bottom: 25px;
+}
+
+img{
+    width: 100% !important;
+}
