@@ -6,36 +6,59 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="Untitled1.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
 </head>
 
 <body>
-    <ul class="nav nav-pills nav-stacked">
-        <li role="presentation"><a href="#">Home</a></li>
-        <li role="presentation"><a href="#">Shop</a></li>
-        <li role="presentation"><a href="#">Reviews</a></li>
-    </ul>
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Zumiez</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" id="dLabel" data-toggle="dropdown" href="#">
+            Brands
+            <span class="caret"></span>
+        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dLabel">
+                            <li><a href="#">Thrasher</a></li>
+                            <li><a href="#">Addidas</a></li>
+                            <li><a href="#">Diamond</a></li>
+                            <li><a href="#">Obey</a></li>
+                            <li><a href="#">Nike SB</a></li>
+                            <li><a href="#">Huf</a></li>
+                            <li><a href="#">Vans</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Sales</a></li>
+                    <li><a href="#">Trending</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="box">
                     <a href="#">
-                        <img src="//static.zumiez.com/skin/frontend/delorum/default/images/LMP-908x200-sgnhol16.jpg">
+                        <img src="//static.zumiez.com/skin/frontend/delorum/default/images/LMP-908x200-sgnhol16.jpg" class="img-rounded" alt="Cinque Terre">
                     </a>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="box">
                     <a href="#">
-                        <img src="//static.zumiez.com/skin/frontend/delorum/default/images/HP-FALL-Mockup-mens.jpg">
+                        <img src="//static.zumiez.com/skin/frontend/delorum/default/images/HP-FALL-Mockup-mens.jpg" class="img-circle" alt="Cinque Terre">
                     </a>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="box">
                     <a href="#">
-                        <img src="//static.zumiez.com/skin/frontend/delorum/default/images/HP-FALL-Mockup-womens.jpg">
+                        <img src="//static.zumiez.com/skin/frontend/delorum/default/images/HP-FALL-Mockup-womens.jpg" class="img-circle" alt="Cinque Terre">
                     </a>
                 </div>
             </div>
@@ -44,19 +67,21 @@
             <div class="col-md-6">
                 <div class="box">
                     <a href="#">
-                        <img src="//static.zumiez.com/skin/frontend/delorum/default/images/mensBrandedHoodies-444x420.jpg">
+                        <img src="//static.zumiez.com/skin/frontend/delorum/default/images/mensBrandedHoodies-444x420.jpg" class="img-circle" alt="Cinque Terre">
                     </a>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="box">
                     <a href="#">
-                        <img src="//static.zumiez.com/skin/frontend/delorum/default/images/footwear-adidasStanSmith-444x420.jpg">
+                        <img src="//static.zumiez.com/skin/frontend/delorum/default/images/footwear-adidasStanSmith-444x420.jpg" class="img-circle" alt="Cinque Terre">
                     </a>
                 </div>
             </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </body>
 
